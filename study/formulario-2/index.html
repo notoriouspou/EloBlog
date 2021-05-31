@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/study/reset.css" />
+  <title>Formulário</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="titulo"><img src="/img/lista.svg"> Formulário</h1>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-form">
+      <form class="formulario">
+        <div class="alinhando">
+          <legend>Agendamento</legend>
+          <label for="nome" class="conteudo">Nome</label>
+          <input type="text" id="nome" required  class="ipt">
+
+          <label for="email" class="conteudo">E-mail</label>
+          <input type="email" id="email" placeholder="meuemail@dominio.com" required class="ipt">
+
+          <label for="telefone" class="conteudo">Telefone</label>
+          <input type="tel" id="telefone" placeholder="(00) 00000-0000" required class="ipt">
+
+          <label for="info" class="conteudo">Descrição</label>
+          <textarea name="informações" id="info" cols="30" rows="5"></textarea>
+
+          <label for="enviar"></label>
+          <input type="submit" name="enviar" class="btn">
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

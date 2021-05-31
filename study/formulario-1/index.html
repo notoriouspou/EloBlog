@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/study/reset.css" />
+  <title>Flexbox</title>
+</head>
+<body>
+
+<section class="container center">
+    <form action="" method="post">
+      <legend class="titulo">Faça seu agendamento</legend>
+      <div class="item">
+        <label class="subtitles" for="nome">Nome Completo</label>
+        <input class="input" id="nome" name="nome" type="text" required placeholder="Digite seu nome">
+      </div>
+      <div class="item">
+        <label class="subtitles" for="email">E-mail</label>
+        <input class="input" id="email" name="email" type="text" required placeholder="Digite seu e-mail">
+      </div>
+      <div class="item">
+        <label class="subtitles" for="telefone">Telefone</label>
+        <input class="input" id="telefone" name="telefone" type="text" required placeholder="(__) _____-____">
+      </div>
+      <div class="item">
+        <label class="subtitles" for="mensagem">Descrição</label>
+        <textarea class="input" name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+      </div>
+      <div class="item-data">
+        <label class="subtitles" for="data">Data</label>
+        <input class="data" id="data" name="data" type="date" required>
+      </div>
+      <button class="btn" type="submit">Solicitar Agendamento</button>
+    </form>
+</section> 
+
+</body>
+</html>
