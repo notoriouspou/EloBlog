@@ -1,3 +1,2 @@
-# treinando html e css
-
-Repositório especifico para estudar HTML e CSS ☂
+# EloBlog - Projeto
+🎉 Projeto realizado com HTML e CSS -> FlexBox 🎉
