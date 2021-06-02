@@ -1,6 +1,6 @@
 /*Menu*/
 .menu-bg {
-  background: black;
+  background: #222222;
 }
 .menu-logo a {
   color: white;
@@ -185,3 +185,117 @@
 }
 
 /*Qualidade*/
+
+.qualidade {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.qualidade-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+.qualidade-item h2 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+  border-left: 5px solid #ffbc40;
+  border-radius: 10%;
+  padding-left: 5px;
+}
+.qualidade-item p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
+
+/*Formulário*/
+
+.formulario {
+  display: flex;
+  max-width: 960px;
+  margin: 60px auto;
+  flex-wrap: wrap;
+}
+.formulario-bg legend {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: #ffbc40 1px solid;
+}
+
+.formulario-item {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: black;
+  margin-left: 10px;
+  align-content: flex-end;
+}
+.formulario-item input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.formulario-item input:hover {
+  border: 2px solid #ffbc40;
+}
+.formulario-item textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+  height: 110px;
+  font-size: 20px;
+}
+.formulario-item textarea:hover {
+  border: 2px solid #ffbc40;
+}
+.formulario-img {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 20px;
+  flex: 1 1 300px;
+}
+.btn {
+  margin-left: 10px;
+  margin-bottom: 60px;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffbc40;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a4a4a4;
+}
+.btn:hover {
+  background-color: #ffbc40;
+}
+.btn:active {
+  background-color: #ffbc40;
+  box-shadow: 0 5px a4a4a4;
+  transform: translateY(4px);
+}
+
+/*Rodapé*/
+
+.footer-bg {
+  background: #222222;
+  display: flex;
+  align-items: center;
+  height: 160px;
+}
+.footer-bg p {
+  color: white;
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+}

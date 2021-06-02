@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/study/eloBlog/style.css">
-  <link rel="stylesheet" type="text/css" href="/study/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="/projeto/reset.css">
+  <link rel="stylesheet" type="text/css" href="/projeto/eloBlog/style.css"/>
   <title>EloBlog</title>
 </head>
 <body>
@@ -98,7 +98,7 @@
         <li>Prazo de 30 dias</li>
         <li>Prazo de 30 dias</li>
       </ul>
-      <a href="#">Comprar</a>
+      <a href="#contato">Comprar</a>
     </div>
     <div class="preco-item">
       <h2>Diamond</h2>
@@ -109,7 +109,7 @@
         <li>Prazo de 30 dias</li>
         <li>Prazo de 30 dias</li>
       </ul>
-      <a href="#">Comprar</a>
+      <a href="#contato">Comprar</a>
     </div>
     <div class="preco-item">
       <h2>Challenger</h2>
@@ -120,7 +120,7 @@
         <li>Prazo de 30 dias</li>
         <li>Prazo de 30 dias</li>
       </ul>
-      <a href="#">Comprar</a>
+      <a href="#contato">Comprar</a>
     </div>
   </section>
 
@@ -156,24 +156,22 @@
   <!-- formulário -->
 
   <section class="formulario" id="contato">
-    <div class="formulário-bg">
-
-      <form class="formulario" method="get">
+      <form class="formulario-bg" method="get">
         <legend>Entre em contato</legend>
         <div class="formulario-item">
-          <label for="nome" id="nome">Nome Completo</label>
-          <input type="text">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required>
         </div>
         <div class="formulario-item">
-          <label for="email" id="email">E-mail</label>
-          <input type="email">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seuemail@dominio.com" required>
         </div>
         <div class="formulario-item">
-          <label for="telefone" id="telefone">Telefone</label>
-          <input type="tel" placeholder="(__)_____ - ____">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" placeholder="(99) 99999-9999" required>
         </div>
         <div class="formulario-item">
-          <label for="mensagem" id="mensagem">Mensagem</label>
+          <label for="mensagem">Mensagem</label>
           <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
         </div>
         <div>
@@ -181,17 +179,13 @@
         </div>
       </form>
 
-    </div>
-
-    <div class="formulario-img">
-      <img src="/img/form-image.jpg" alt="formulário imagem">
-    </div>
-
-    <footer class="footer-bg">
-      <p>EloBlog © Todos direitos reservados </p>
-    </footer>
-
+      <div class="formulario-img">
+        <img src="/img/form-image.jpg" alt="formulário imagem">
+      </div>
   </section>
 
+    <footer class="footer-bg">
+      <p>EloBlog © Todos direitos os reservados</p>
+    </footer>
 </body>
 </html>
