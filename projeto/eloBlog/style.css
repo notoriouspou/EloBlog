@@ -299,3 +299,7 @@
   text-align: center;
   font-size: 2.25em;
 }
+
+.invalido {
+  border: 1px solid #ff4040;
+}

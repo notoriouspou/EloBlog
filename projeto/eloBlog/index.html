@@ -155,24 +155,26 @@
 
   <!-- formulário -->
 
-  <section class="formulario" id="contato">
-      <form class="formulario-bg" method="get">
+  <section class="formulario">
+      <form action="https://api.staticforms.xyz/submit" name="contato" id="contato" class="formulario-bg" method="POST">
         <legend>Entre em contato</legend>
+        <input type="hidden" name="accessKey" value="3a748c8f-0fed-40d7-8615-cdf20368ae03"> <!-- Required -->
+        <input type="hidden" name="redirectTo" value="#contato">
         <div class="formulario-item">
           <label for="nome">Nome Completo</label>
-          <input type="text" id="nome" placeholder="Digite seu nome" required>
+          <input type="text" name="name" id="nome" placeholder="Digite seu nome" required>
         </div>
         <div class="formulario-item">
           <label for="email">E-mail</label>
-          <input type="email" id="email" placeholder="seuemail@dominio.com" required>
+          <input type="email" name="email"  id="email" placeholder="seuemail@dominio.com" required>
         </div>
         <div class="formulario-item">
           <label for="telefone">Telefone</label>
-          <input type="tel" id="telefone" placeholder="(99) 99999-9999" required>
+          <input type="tel" name="phone" id="telefone" placeholder="(99) 99999-9999" required maxlength="13">
         </div>
         <div class="formulario-item">
           <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+          <textarea name="message" id="mensagem" cols="30" rows="5"></textarea>
         </div>
         <div>
           <button class="btn" type="submit">Enviar</button>
@@ -187,5 +189,7 @@
     <footer class="footer-bg">
       <p>EloBlog © Todos direitos os reservados</p>
     </footer>
+
+    <script src="./script.js" ></script>
 </body>
 </html>
