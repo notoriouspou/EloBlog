@@ -1,2 +1,2 @@
 # EloBlog - Projeto
-🎉 Projeto realizado com HTML e CSS -> FlexBox 🎉
+Projeto realizado com HTML e CSS -> FlexBox
